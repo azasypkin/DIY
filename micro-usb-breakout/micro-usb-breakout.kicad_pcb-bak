@@ -34,10 +34,10 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 0.25)
     (user_trace_width 0.4064)
     (user_trace_width 0.762)
-    (trace_clearance 0.2)
+    (trace_clearance 0.25)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -64,7 +64,7 @@
     (aux_axis_origin 139.39 86.79)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01000_7ffffffe)
+      (layerselection 0x00000_7fffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -74,7 +74,7 @@
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
@@ -101,7 +101,7 @@
   (net 6 "Net-(J1-Pad3)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.25)
     (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
@@ -230,14 +230,14 @@
     )
   )
 
-  (gr_arc (start 128.489346 74.004902) (end 128.509346 72.004902) (angle -91.29214085) (layer Edge.Cuts) (width 0.15) (tstamp 5C2268AE))
-  (gr_arc (start 137.28 74) (end 139.28 74.02) (angle -90.85941521) (layer Edge.Cuts) (width 0.15) (tstamp 5C2268AE))
-  (gr_arc (start 128.49 84.62) (end 128.51 86.62) (angle 91.1458774) (layer Edge.Cuts) (width 0.15) (tstamp 5C2268AE))
-  (gr_arc (start 137.28058 84.615) (end 137.26058 86.615) (angle -91.28930637) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 128.492 86.615) (end 137.26058 86.615) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 126.492 74) (end 126.492 84.615) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 137.27836 72) (end 128.492 72) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 139.27836 84.615) (end 139.27836 74) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 128.489346 74.004902) (end 128.509346 72.004902) (angle -91.3) (layer Edge.Cuts) (width 0.01) (tstamp 5C2268AE))
+  (gr_arc (start 137.28 74) (end 139.28 74.02) (angle -90.9) (layer Edge.Cuts) (width 0.01) (tstamp 5C2268AE))
+  (gr_arc (start 128.49 84.62) (end 128.51 86.62) (angle 91.1) (layer Edge.Cuts) (width 0.01) (tstamp 5C2268AE))
+  (gr_arc (start 137.28058 84.615) (end 137.26058 86.615) (angle -91.3) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 128.492 86.615) (end 137.26058 86.615) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 126.492 74) (end 126.492 84.615) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 137.27836 72) (end 128.492 72) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 139.27836 84.615) (end 139.27836 74) (layer Edge.Cuts) (width 0.01))
 
   (segment (start 133.335 79.9615) (end 135.1385 79.9615) (width 0.4064) (layer F.Cu) (net 2))
   (segment (start 132.4841 79.9615) (end 135.126 79.9615) (width 0.4064) (layer F.Cu) (net 2))
